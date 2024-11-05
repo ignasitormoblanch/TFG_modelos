@@ -61,6 +61,8 @@ class Perceptron(nn.Module):
 # Inicializamos el modelo, la función de pérdida y el optimizador
 #crea el modelo
 model = Perceptron()
+
+
 #criterion define la función de pérdida para el modelo, en este caso CrossEntropyLoss
 criterion = nn.CrossEntropyLoss()
 #El optimizador se encarga de actualizar los parámetros de la red para reducir la pérdida.
